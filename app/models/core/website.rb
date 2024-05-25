@@ -1,5 +1,5 @@
 class Core::Website < ApplicationRecord
-  belongs_to :account, class_name: 'Core::Account'
+  belongs_to :account, class_name: 'Core::Account', foreign_key: :core_account_id
 
   validates :description, :title, :keywords, :enquiry_email, presence: true
 
