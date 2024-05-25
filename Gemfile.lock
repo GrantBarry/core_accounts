@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    core_accounts (0.1.0)
+    core_accounts (0.1.1)
       rails (>= 7.1.3.3)
 
 GEM
